@@ -1,4 +1,4 @@
-# 인스턴스 종료
+# EC2
 
 **인스턴스 실수로 종료 막기** -> disableApiTermination 속성을 true
 
@@ -11,3 +11,10 @@
 **Spot Instacne** : 남는거 떨이해서 씀 -> 엄청 싸지만 언제 자원 뺏길지 
 
 **인스턴스 AMI 생성시** : 잠깐의 다운된다.
+
+**Auto scaling 생성시**
+
+<div>
+	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/81523360-90a83700-9388-11ea-846a-17e59a629a8d.PNG">
+</div>
+
