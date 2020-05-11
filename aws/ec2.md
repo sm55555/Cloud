@@ -43,7 +43,7 @@ instanceInitiatedShutdownBehavior 인스턴스 속성을 stop이나 terminate �
 </div>
 
 ```
-Health Check type 부분  ELB는 EC2에 올라간 application의 헬스만 체크하는것이고 **(ex: ec2위에 올라간 웹서버)**
+Health Check type 부분  ELB는 EC2에 올라간 application의 헬스만 체크하는것이고 (ex: ec2위에 올라간 웹서버)
 
 EC2를 체크하면 단순히 EC2가 살아있는건지 죽은건지 확인하는것이다.
 ```
