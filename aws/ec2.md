@@ -38,12 +38,10 @@ instanceInitiatedShutdownBehavior 인스턴스 속성을 stop이나 terminate �
 ```
 **Auto scaling 생성시**
 
-```
-
 <div>
 	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/81523360-90a83700-9388-11ea-846a-17e59a629a8d.PNG">
 </div>
 
+```
 Health Check type 부분  ELB는 EC2에 올라간 application의 헬스만 체크하는것이고, EC2를 체크하면 단순히 EC2가 살아있는건지 죽은건지 확인하는것이다.
-
 ```
