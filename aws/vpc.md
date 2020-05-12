@@ -19,7 +19,7 @@ ex) A<->B, B<->C 되있다고 A<->C가 되는 것은 아님
 **Network ACLs**
 
 <div>
-	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/81630004-741b0600-943f-11ea-8f19-21fe526785ab.PNG">
+	<img width="400px" height="150px" src="https://user-images.githubusercontent.com/38831314/81630004-741b0600-943f-11ea-8f19-21fe526785ab.PNG">
 </div>
 
 ```
