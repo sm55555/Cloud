@@ -36,6 +36,7 @@ instanceInitiatedShutdownBehavior 인스턴스 속성을 stop이나 terminate �
 ```
 해당 EC2에서 생성하면 해당 EC2가 잠깐의 다운된다.
 ```
+
 **Auto scaling 생성시**
 
 <div>
@@ -46,4 +47,13 @@ instanceInitiatedShutdownBehavior 인스턴스 속성을 stop이나 terminate �
 Health Check type 부분  ELB는 EC2에 올라간 application의 헬스만 체크하는것이고 (ex: ec2위에 올라간 웹서버)
 
 EC2를 체크하면 단순히 EC2가 살아있는건지 죽은건지 확인하는것이다.
+```
+
+# EBS
+
+
+**EC2 생성시 Storage**
+
+```
+생성할때 Delete on Termination을 눌러야 없어질때 같이 생김
 ```
