@@ -57,3 +57,7 @@ EC2를 체크하면 단순히 EC2가 살아있는건지 죽은건지 확인하�
 ```
 생성할때 Delete on Termination을 눌러야 없어질때 같이 생김
 ```
+
+**JBOSS 버전 확인**
+
+JBoss 버전 확인  -> appadmin 접속 cd was/domain/hj-pctc -> ./jboss-cli.sh 실행 -> version
