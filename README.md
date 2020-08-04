@@ -1,2 +1,2 @@
 # Cloud
-Cloud 잡지식..
+AWS, Azure, GCP 항목별 잡기술 모음..
