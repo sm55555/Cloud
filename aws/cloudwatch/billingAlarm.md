@@ -1,6 +1,6 @@
 # BillingAlram
-
-참고 URL
+ 
+AWS 공식 참고 URL
 
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html
 
