@@ -9,3 +9,5 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated
 https://ark1st.tistory.com/36
 
 일반 적으로 비용은 미국 동부(버지니아 북부로)에 다 통합되기에 비용설정알람 region은 미국 동부로 설정한다.
+
+https://github.com/sm55555/Cloud/issues/3#issue-815124648
