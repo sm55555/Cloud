@@ -1,5 +1,8 @@
 # SoftWare Limit increas 방법
 
+개인 계정 vpc 6개 이상 만들면 생성할 수 없는 에러가 발생한다.
+
+https://user-images.githubusercontent.com/38831314/109762800-8a938780-7c34-11eb-8be1-10b73e7903b4.png
 
 ### 1. aws supportcenter 접속
 
