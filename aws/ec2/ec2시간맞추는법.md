@@ -5,7 +5,7 @@
 
 ### Timezone 변경
 
-```
+```linux
 [ec2-user@ip-172-31-7-180 ~]$ date
 Fri Aug  8 06:41:49 UTC 2014
  
