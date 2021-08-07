@@ -27,5 +27,6 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-vol
 ### EC2 생성시 Storage**
 
 ```
-EBS 생성할때 Delete on Termination 옵션 체크하면 EC2 사라질 때 같이 사라짐(EC2)
+EBS 생성할때 Delete on Termination 옵션 체크하면 EC2 사라질 때 같이 사라짐(기본적으로 Root 볼륨은 전부 해당된다.)
+그래서 EC2 지우면 Root 말고 나머지 볼륨은 available 상태로 남아 있다.
 ```
