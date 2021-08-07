@@ -23,3 +23,9 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-vol
 ### EBS 옵션 변경 시 주의 사항
 
 볼륨 확장 후 -> 타입을 변경하려고(gp2 -> gp3) 하면 최소 6시간 이상 대기해야한다...
+
+### EC2 생성시 Storage**
+
+```
+EBS 생성할때 Delete on Termination 옵션 체크하면 EC2 사라질 때 같이 사라짐(EC2)
+```
