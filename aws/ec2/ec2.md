@@ -48,16 +48,3 @@ Health Check type 부분  ELB는 EC2에 올라간 application의 헬스만 체�
 
 EC2를 체크하면 단순히 EC2가 살아있는건지 죽은건지 확인하는것이다.
 ```
-
-# EBS
-
-
-**EC2 생성시 Storage**
-
-```
-생성할때 Delete on Termination을 눌러야 없어질때 같이 생김
-```
-
-**JBOSS 버전 확인**
-
-JBoss 버전 확인  -> appadmin 접속 cd was/domain/hj-pctc -> ./jboss-cli.sh 실행 -> version
