@@ -16,7 +16,7 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-vol
 [ec2-user ~]$ sudo resize2fs /dev/nvme1n1
 ```
 
-### GP2 VS GP3
+### GP2 vs GP3
 
 웬만하면 gp3 가 더낮다, 서버가 켜져있는 동안에도 변경 가능
 
