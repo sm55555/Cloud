@@ -23,7 +23,7 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-vol
 ![image](https://user-images.githubusercontent.com/38831314/129137908-f40cfbf4-d586-444e-921a-4afaa5ab1a54.png)
 
 
--- 요금 측정 사이트
+-> 요금 측정 사이트
 https://aws.amazon.com/ko/ebs/pricing/
 
 ### EBS 옵션 변경 시 주의 사항
