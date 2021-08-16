@@ -1,2 +1,2 @@
 # Cloud
-AWS, Azure, GCP 항목별 잡기술 모음..
+AWS, Azure, GCP 관련
