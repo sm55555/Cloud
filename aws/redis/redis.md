@@ -13,6 +13,6 @@ Actions -> Failover primary 변경
 
 ### 주의 사항 !!
 
-콘솔내에서는  
+콘솔내에서는 primary, replica 바뀐게 확인 되지만 바로 적용 되지 않는다,,,, 약간의 시간 필요
 
 
