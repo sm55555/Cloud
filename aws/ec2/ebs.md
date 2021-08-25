@@ -36,3 +36,11 @@ https://aws.amazon.com/ko/ebs/pricing/
 EBS 생성할때 Delete on Termination 옵션 체크하면 EC2 사라질 때 같이 사라짐(기본적으로 Root 볼륨은 전부 해당된다.)
 그래서 EC2 지우면 Root 말고 나머지 볼륨은 available 상태로 남아 있다.
 ```
+
+### EBS 교체 방법
+
+결론은 인스턴스 끄지 않고도 교체가능하다. 루트볼륨도 해당 아래 내용 참고
+
+https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ebs-restoring-volume.html
+
+
