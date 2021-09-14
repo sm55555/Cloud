@@ -1,13 +1,55 @@
-### window -> S3
+## window -> S3 file upload
 
-1. S3 프로그래밍 되는 계정 생성
+### 1. AWS CLI 2 다운로드
 
-2. configure 세팅
+https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/install-cliv2.html
+
+### 2. S3 프로그래밍 되는 계정 생성
+
+### 3. 해당 서버 내에서 AWS CLI 세팅
+
+[기본설정] 
+
+```
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: ENTER
+```
+
+[모든 구성 데이터를 나열]
+
+```
+$ aws configure list
+      Name                    Value             Type    Location
+      ----                    -----             ----    --------
+   profile                <not set>             None    None
+access_key     ****************ABCD  shared-credentials-file    
+secret_key     ****************ABCD  shared-credentials-file    
+    region                us-west-2             env    AWS_DEFAULT_REGION
+```
+
+[모든 프로파일 이름을 나열]
+
+```
+$ aws configure list-profiles
+default
+test
+```
+https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/cli-configure-files.html
+
+### 4. S3 네트워크 설정
+
+[설정 방법]
+
 aws configure set default.s3.max_bandwidth 500MB/s
 
-3. 보내는 명령어
+[확인 방법]
 
-ex)
+https://docs.aws.amazon.com/cli/latest/topic/s3-config.html
 
-aws s3 sync G:\201307 s3://test/test2/201307
+### 5. 보내는 명령어
+
+ex) aws s3 sync G:\201307 s3://test/test2/201307
 
