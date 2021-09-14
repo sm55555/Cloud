@@ -6,6 +6,8 @@ https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/install-cliv2.html
 
 ### 2. S3 프로그래밍 되는 계정 생성
 
+IAM S3 FullAccess 권한 할당 !
+
 ### 3. 해당 서버 내에서 AWS CLI 세팅
 
 [기본설정] 
