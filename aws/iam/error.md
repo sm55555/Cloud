@@ -1,6 +1,6 @@
 ### PassRole 관련
 
-```
+```cmd
 com.amazonaws.services.lambda.model.AWSLambdaException: User: arn:aws:iam::11111111:user/test
 is not authorized to perform: iam:PassRole on resource: arn:aws:iam::11111111:role/service-role/
 Lambda-role
