@@ -14,8 +14,8 @@ IAM S3 FullAccess 권한 할당 !
 
 ```
 $ aws configure
-AWS Access Key ID [None]: ㅋㅌㅊㅌㅋㅊㅊ
-AWS Secret Access Key [None]: ㅋㅊㅌㅋㅊㅊ
+AWS Access Key ID [None]: AAAAAAAAASDAEXAMPLE
+AWS Secret Access Key [None]: wlsdjasdJxckasdasdkdsddPLEKEY
 Default region name [None]: us-west-2
 Default output format [None]: ENTER
 ```
