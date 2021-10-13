@@ -28,7 +28,7 @@ Username을 람다함수로 확인한다. Error code toggle 활성화해서 검�
 
 ![image](https://user-images.githubusercontent.com/38831314/137048615-255f3a97-9722-4b74-b93c-5b98c1618bcd.png)
 
-조치사항
+[조치사항]
 
 ```json
 {
