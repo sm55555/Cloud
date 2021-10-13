@@ -28,6 +28,24 @@ Username을 람다함수로 확인한다. Error code toggle 활성화해서 검�
 
 ![image](https://user-images.githubusercontent.com/38831314/137048615-255f3a97-9722-4b74-b93c-5b98c1618bcd.png)
 
+조치사항
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kms:Decrypt",
+                "kms:GenerateDataKey"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
+
 안되면 KMS 풀권한 부여 (IAM Police에서 Resource 범위 보고 넣어주자..... 범위 제한 되어 있으면 제대로 넣어도 동작안함)
 
 [참고 URL]
