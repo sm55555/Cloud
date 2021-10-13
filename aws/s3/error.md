@@ -13,6 +13,13 @@ Failed to connect to proxy URL: "https://127.0.0.1:8080"
 
 ### s3 Access Denied
 
+에러 상세 내용
+
+```
+2021-10-13 00:59:28 aaaaaaaa-bbbb-cccc-dddd-89ac9ea9e0fb DEBUG AwsS3Handler:708 - [upload exception = Access Denied (Service: Amazon S3; Status Code: 403; 
+Error Code: AccessDenied; Request ID: ASDSAD123ASDXZC; S3 Extended Request ID: asjdksdjsajkdsa)]
+```
+
 CloudTrail로 에러 로그 확인 
 
 Username을 람다함수로 확인한다. Error code toggle 활성화해서 검색
