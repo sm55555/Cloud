@@ -13,7 +13,7 @@ Failed to connect to proxy URL: "https://127.0.0.1:8080"
 
 ### s3 Access Denied
 
-CloudTrail 확인 
+CloudTrail로 에러 로그 확인 
 
 Username을 람다함수로 확인한다. errocode toggle 활성화해서 검색
 
@@ -21,8 +21,13 @@ Username을 람다함수로 확인한다. errocode toggle 활성화해서 검색
 
 ![image](https://user-images.githubusercontent.com/38831314/137048615-255f3a97-9722-4b74-b93c-5b98c1618bcd.png)
 
+또는 KMS 풀권한 부여 해도 안되면
+
+[참고 URL]
+
+https://docs.aws.amazon.com/streams/latest/dev/permissions-user-key-KMS.html
 
 https://aws.amazon.com/ko/premiumsupport/knowledge-center/s3-troubleshoot-403/
 
-또는 KMS 풀권한 부여
+
 
