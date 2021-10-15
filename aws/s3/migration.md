@@ -55,6 +55,8 @@ https://docs.aws.amazon.com/cli/latest/topic/s3-config.html
 
 ex) aws s3 sync G:\201307 s3://test/test2/201307
 
+warning: Skipping file ~~~ File does not exist. 뜰 경우 sync -> cp로 변경
+
 ### tip
 
 윈도우에서는 .bat 만들어서 진행했다.
