@@ -61,4 +61,6 @@ warning: Skipping file ~~~ File does not exist. 뜰 경우 sync (객체 동기�
 
 윈도우에서는 .bat 만들어서 진행했다.
 
+배치파일 text에 명령어만 넣고 실행
+
 
