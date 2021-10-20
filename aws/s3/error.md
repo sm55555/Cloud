@@ -65,6 +65,7 @@ aws s3api head-object  --bucket [name] -key [fileName] 명령어를 통해 조�
 
 2. 아래 이슈,,,정확한 원인 파악 하기
 
+![image](https://user-images.githubusercontent.com/38831314/138030212-9aa55127-c608-499a-b824-10752861508e.png)
 
 
 
