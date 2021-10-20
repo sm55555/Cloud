@@ -1,4 +1,4 @@
-## 에러 사항
+## aws cli cp 에러
 ```
 aws s3 cp D:\util\test\test.txt s3://test/
 
@@ -53,3 +53,21 @@ Username을 람다함수로 확인한다. Error code toggle 활성화해서 검�
 https://docs.aws.amazon.com/streams/latest/dev/permissions-user-key-KMS.html
 
 https://aws.amazon.com/ko/premiumsupport/knowledge-center/s3-troubleshoot-403/
+
+
+### ec2 -> s3 접근 이슈
+
+1. 일단 접근하느 버킷 되는지 확인
+
+aws s3api head-object  --bucket [name] -key [fileName] 명령어를 통해 조회 -> 성공하면 현재 접속 문제 없음 성공하면 아래와 같이 나옴
+
+![image](https://user-images.githubusercontent.com/38831314/138027687-c3933124-c9af-436e-b541-c892b3da4e80.png)
+
+2. 아래 이슈,,,정확한 원인 파악 하기
+
+
+
+
+
+
+
