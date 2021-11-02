@@ -54,6 +54,7 @@ https://docs.aws.amazon.com/cli/latest/topic/s3-config.html
 ### 5. 보내는 명령어
 
 ex) aws s3 sync G:\201307 s3://test/test2/201307
+ex) aws s3 sync G:\201307\test.jpg s3://test/test2/201307/test.jpg
 
 warning: Skipping file ~~~ File does not exist. 뜰 경우 sync (객체 동기화 폴더에 사용 가능) -> cp(객체 복사 주로 사용)로 변경
 
