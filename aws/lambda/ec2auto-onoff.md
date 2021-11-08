@@ -37,9 +37,9 @@ ap-northeast-2
 
 ### cloudwatch 시간 설정
 
-오전 8:30 ~ 오후 5:30 (주말 off)
-30 23 ? * SUN-THU *
-30 8 ? * SUN-THU *
+KMT 기준 평일 오전 7:00 ~ 오후 7:00 (주말 off)
+0 22 ? * SUN-THU *
+0 10 ? * MON-FRI *
 
 
 
