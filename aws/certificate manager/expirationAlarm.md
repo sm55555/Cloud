@@ -6,7 +6,9 @@
 
 ![image](https://user-images.githubusercontent.com/38831314/142573263-0b02b4c1-458e-450e-a332-a4c7299a24de.png)
 
-## 2. 사용자 email 등록 및 인증 완료
+## 2. 사용자 email 등록 및 인증 완료 (Subscriptions)
+
+![image](https://user-images.githubusercontent.com/38831314/142573570-0d4b6236-5d5a-48da-a01b-4a476b4005ab.png)
 
 ## 3. CloudWatch 확인
 
