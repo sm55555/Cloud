@@ -1,6 +1,6 @@
 ## expirationAlarm
 
-###Deploy Option 1: Use a CloudWatch event to identify an expiring certificate
+### Deploy Option 1: Use a CloudWatch event to identify an expiring certificate
 
 
 1. SNS 토픽 -> 사용자 email 인증 완료
