@@ -13,7 +13,7 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-vol
 
 ex) /data 증설
 
-- 콘솔내에서 EBS에서 증설
+-콘솔내에서 EBS에서 증설
 
 -디스크 정보 확인
 ```linux
