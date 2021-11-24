@@ -11,7 +11,7 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-vol
 
 -> EBS 콘솔에서 변경 후 
 
-ex) /data 증설
+#### ex) /data 증설
 
 -콘솔내에서 EBS에서 증설
 
