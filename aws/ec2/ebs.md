@@ -11,9 +11,31 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/recognize-expanded-vol
 
 -> EBS 콘솔에서 변경 후 
 
+ex) /data 증설
+
+- 콘솔내에서 EBS에서 증설
+
+-디스크 정보 확인
+```linux
+[ec2-user ~]$ df -h
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/nvme0n1p1   8.0G  1.6G  6.5G  20% /
+/dev/nvme1n1     8.0G   33M  8.0G   1% /data
+...
+
+-증설 명령어
 ```linux
 [ec2-user ~]$ sudo xfs_growfs -d /data
 [ec2-user ~]$ sudo resize2fs /dev/nvme1n1
+```
+
+-반영 확인
+```linux
+[ec2-user ~]$ df -h
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/nvme0n1p1    16G  1.6G   15G  10% /
+/dev/nvme1n1      30G   33M   30G   1% /data
+...
 ```
 
 ### GP2 vs GP3
