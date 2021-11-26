@@ -2,7 +2,7 @@
 
 ## 1. SNS 토픽 생성
 
-##### 특이사항 옵션 Standard
+##### Type Standard
 
 ![image](https://user-images.githubusercontent.com/38831314/142573263-0b02b4c1-458e-450e-a332-a4c7299a24de.png)
 
