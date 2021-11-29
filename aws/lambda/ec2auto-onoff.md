@@ -62,6 +62,8 @@ def lambda_handler(event, context):
 
 KMT 기준 평일 오전 7:00 ~ 오후 7:00 (주말 off) crontab
 
+KMT는 GMT+9 시간이므로 생각해봐라,,,
+
 ```
 0 22 ? * SUN-THU *
 0 10 ? * MON-FRI *
