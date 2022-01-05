@@ -25,11 +25,11 @@ policy allows the kms:GenerateDataKey action (Service: AWSKMS; Status Code: 400;
 
 ```
 
-처음에 키를 생성해야하기에 "kms:GenerateDataKey"가 필요하다.
+처음에 키를 생성해야하기에 "kms:GenerateDataKey" 권한이 필요
 
 ![image](https://user-images.githubusercontent.com/38831314/140848427-01058cbc-aee5-4e04-bfb0-ece2e123a373.png)
 
-그 다음 데이터 복호화를 위해 "kms:Decrypt"가 필요하다
+그 다음 데이터 복호화를 위해 "kms:Decrypt" 권한이 필요
 
 ![image](https://user-images.githubusercontent.com/38831314/140848514-cc2abf7f-b4f6-43b9-be40-66b74a9acb9b.png)
 
