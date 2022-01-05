@@ -34,6 +34,8 @@ policy allows the kms:GenerateDataKey action (Service: AWSKMS; Status Code: 400;
 ![image](https://user-images.githubusercontent.com/38831314/140848514-cc2abf7f-b4f6-43b9-be40-66b74a9acb9b.png)
 
 
+<Strong>CMK를 API를 통해서 호출하는 이유는 암호화된 데이터 자체는 가만히 있고 cmk데이터만 움직여서 복호화 하면 된다.</Strong>
+
 참고 URL
 
 https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html
