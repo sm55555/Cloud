@@ -29,7 +29,7 @@ IAM Role trust policy는 Role에 연결되는 정책으로 역할을 수임할 �
 
 ```
 
-자신 계정의 특정권한을 -> 타인에게 사용할 수 있게 허락해준다. 여기서는 ReadOnlyAcceess
+자신 계정의 특정권한을 ->  타인(123456789, root)에게 사용할 수 있게 허락해준다. 여기서는 ReadOnlyAcceess
 
 <strong>sts:AssumeRole</strong> 의미는? 이 Role(역할)의 행동을 맡기겠다는 의미입니다.
 더 정확하게 말하면 특정 Role(Role에 결부된 권한)을 임시로 인수(Assume)한다라는 행동입니다.
