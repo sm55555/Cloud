@@ -7,6 +7,11 @@ IAM Role trust policy는 Role에 연결되는 정책으로 역할을 수임할 �
 ![image](https://user-images.githubusercontent.com/38831314/148474544-fc4d8b66-724e-4a30-b808-46d7bbb33111.png)
 
 
+![image](https://user-images.githubusercontent.com/38831314/148474804-142274ef-a6e7-40dd-8015-a511193a8c14.png)
+
+
+### Edit trust relationship
+
 ```json
 {
   "Version": "2012-10-17",
