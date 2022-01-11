@@ -4,7 +4,7 @@
 ## OutOfMemory Error: Heap Space 발생 시
 
 
-Dockerfile 수정
+Dockerfile 수정 (32기가)
 
 ```
 CMD java -Xmx32G -classpath [serviceName]
