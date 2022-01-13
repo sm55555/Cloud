@@ -14,5 +14,8 @@
 - Saving Plan 비해 다소 제약사항이 많음
 - RDS, EC2, Redshift, ElasticCache 등
 
+### RI, Savings Plan 공유 해체 (Organization 환경)
+
+![image](https://user-images.githubusercontent.com/38831314/149268164-664adfed-a1a1-4406-9831-709ae2497506.png)
 
 
