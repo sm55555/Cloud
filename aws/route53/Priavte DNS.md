@@ -7,6 +7,9 @@ Edit DNS hostnames, resoltion 체크
 
 ![image](https://user-images.githubusercontent.com/38831314/150745331-a2d07f81-4d4c-4548-88fb-6fcfdb4cf0a4.png)
 
+![image](https://user-images.githubusercontent.com/38831314/150745837-4ad9fda9-d7c7-43a9-bb6f-444b33d755d0.png)
+
+
 2. Route53에서 Private Hosted Zone 만들기
 
 3. 필요레코드 만들기
