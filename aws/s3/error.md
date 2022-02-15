@@ -68,6 +68,9 @@ aws s3api head-object  --bucket [name] -key [fileName] 명령어를 통해 조�
 ![image](https://user-images.githubusercontent.com/38831314/138030212-9aa55127-c608-499a-b824-10752861508e.png)
 
 
+### AWS Java SDK를 써서 s3.listObjects(bucket) 를 사용하면 최대 1000개 조회됨
+
+
 
 
 
