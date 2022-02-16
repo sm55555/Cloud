@@ -16,7 +16,7 @@
 
 ### RI, Savings Plan 공유 해체 (Organization 환경)
 
-물론 Credit도 공유 해체 가능하다!
+공유 해체 가능
 
 ![image](https://user-images.githubusercontent.com/38831314/149268164-664adfed-a1a1-4406-9831-709ae2497506.png)
 
