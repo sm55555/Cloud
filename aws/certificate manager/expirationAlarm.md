@@ -24,6 +24,7 @@ AWS 상단 종 모양의 Notification에 표시됩니다.
 
 기존 Targets에 연결
 
-![image](https://user-images.githubusercontent.com/38831314/159927757-aa825642-6aa6-4c34-8f2b-53eb371eb566.png)
+![image](https://user-images.githubusercontent.com/38831314/159927915-fe988b17-1df2-463f-8ef0-0e8a2e17cc1c.png)
+
 
 공식 URL : https://aws.amazon.com/ko/blogs/security/how-to-monitor-expirations-of-imported-certificates-in-aws-certificate-manager-acm/
