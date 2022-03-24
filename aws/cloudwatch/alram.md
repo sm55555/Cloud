@@ -17,11 +17,17 @@ AWS API call via CloudTrail - Specific operation(s) -
 5. CreateSecurityGroup
 6. DeleteSecurityGroup
 
-
+![image](https://user-images.githubusercontent.com/38831314/159929736-1143b1e4-74b2-496f-aeb6-f25d27ca861a.png)
 
 ### 2. IAM User Create/Delete
 
-<span style="color:red">붉은 색</span>
+AWS Web Console - CloudWatch - Rules - Create rule - Event pattern - Event by service - IAM -
+AWS API call via CloudTrail - Specific operation(s) -
+
+IAM에 대한 Resource는 us-east-1(버지니아 북부)에 위치하기 때문에 꼭!! Region을 us-east-1으로 변경합니다.
 
 1. CreateUser
 2. DeleteUser
+
+![image](https://user-images.githubusercontent.com/38831314/159929814-db449e8a-d6f5-47fd-946a-2fb8e8894b14.png)
+
