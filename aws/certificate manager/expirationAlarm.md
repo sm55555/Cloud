@@ -14,4 +14,16 @@
 
 ![image](https://user-images.githubusercontent.com/38831314/139015098-b5ee0616-57f7-4dec-b734-ed4a73501b7d.png)
 
+## 4. Personal Health Dashboard 알림
+
+Personal Health Dashboard는 AWS 특정 Region 인프라의 장애(HostOS, Network 장애 등..)로 인하여,
+Region 전역 혹은 Region 특정 가용영역에 장애가 생겨 내 계정 Resource에 영향을 주게 되는경우
+AWS 상단 종 모양의 Notification에 표시됩니다.
+
+![image](https://user-images.githubusercontent.com/38831314/159927710-7fe6c0c0-20d0-4519-bad9-2b179f2f7935.png)
+
+기존 Targets에 연결
+
+![image](https://user-images.githubusercontent.com/38831314/159927757-aa825642-6aa6-4c34-8f2b-53eb371eb566.png)
+
 공식 URL : https://aws.amazon.com/ko/blogs/security/how-to-monitor-expirations-of-imported-certificates-in-aws-certificate-manager-acm/
