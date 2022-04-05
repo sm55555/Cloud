@@ -31,3 +31,5 @@ aws s3 ls
 aws s3 ls
 ```
 -----> 성공
+
+#### 정리하자면 Gatway Endpoint라서 라우팅에 추가하고 해당 라우팅 테이블을 사용하는 EC2가 IGW 없이 S3 접근 가능
