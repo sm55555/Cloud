@@ -20,7 +20,7 @@ aws s3 ls
 ```
 “Service Name” 항목에서 “s3”를 검색한 후 “com.amazonaws.ap-northeast-2.s3”를 선택한다.
 위에서 생성한 EC2가 있는 VPC를 선택한다.
-아래 “Configure route tables”가 표시되면 Private subnet에서 사용하고 있는 Route Table을 선택한다.
+아래 “Configure route tables”가 표시되면 Private subnet에서 사용하고 있는 Route Table을 선택한다. (Gatway Endpoint라서 라우팅 추가 방식으로 진행)
 아래 “Policy”에서 특정 Bucket에 대한 정책을 제한할 수 있지만, 지금은 그냥 “Full Access”를 선택한다.
 ```
 
