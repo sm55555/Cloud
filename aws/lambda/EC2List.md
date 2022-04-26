@@ -18,3 +18,5 @@ def lambda_handler(event, context):
             instance_ids.append(instance_id)
     return instance_ids
 ```
+
+https://stackoverflow.com/questions/64801543/aws-lambda-to-list-ec2-instance-id-using-python-boto3
