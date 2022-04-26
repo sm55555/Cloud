@@ -1,3 +1,5 @@
+## EC2 List 출력
+
 ```python
 import boto3
 region = 'ap-south-1'
