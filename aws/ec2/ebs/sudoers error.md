@@ -1,10 +1,10 @@
 ## sudoers error
-
+```
 "/etc/sudoers: syntax error near line xx"
 "sudo: parse error in /etc/sudoers near line xx"
 "sudo: no valid sudoers sources found, quitting"
 "sudo: unable to initialize policy plugin"
-
+```
 이런 문구가 뜨면 아래 url참고
 
 https://aws.amazon.com/ko/premiumsupport/knowledge-center/ec2-sudoers-syntax-errors-sudo/
