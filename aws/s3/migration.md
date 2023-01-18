@@ -53,6 +53,8 @@ https://docs.aws.amazon.com/cli/latest/topic/s3-config.html
 
 ### 5. 보내는 명령어
 
+리젼 인식이 안되면 --region ap-northeast-2 를 명령어 뒤에 넣어야한다.
+
 ex) aws s3 sync G:\201307 s3://test/test2/201307
 ex) aws s3 sync G:\201307\test.jpg s3://test/test2/201307/test.jpg
 
