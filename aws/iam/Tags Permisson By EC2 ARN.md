@@ -9,7 +9,7 @@
             "Action": [
                 "ec2:DeleteTags",
                 "ec2:CreateTags",
-				   "ec2: Describelnstances"
+		"ec2: Describelnstances"
             ],
             "Resource": "*"
             "Condition":{
