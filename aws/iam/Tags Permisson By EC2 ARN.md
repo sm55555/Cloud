@@ -1,3 +1,4 @@
+### ARN이 자기인 경우에만 tags 바꾸기
 
 ```json
 {
@@ -16,7 +17,7 @@
                  "aws:ARN": "${ec2:SourcelnstanceARN}"
               },
                "ForAllValues:StringEquals": {
-                  "aws:TagKeys": "BuildNumber"
+                  "aws:test": "Testnumber"
               }
             }
         }
