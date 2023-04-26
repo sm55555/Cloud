@@ -18,3 +18,8 @@
 
 ![image](https://user-images.githubusercontent.com/38831314/150745705-7ccf59de-f5cc-4cf3-9b1d-ec25f85070ec.png)
 
+### Route53에서 만든 DNS 다른 대역 윈도우 서버에서 사용할떄
+
+1. Inbound Endpoint 생성
+2. Security Group에 윈도우 서버 대역 방화벽 Inbound Endpoint IP Address open TCP/UDP 53 오픈
+3. 윈도우 서버에서 Telnet [Inbound Endpoint IP Address] 53 확인 후 Inbound Endpoint IP Address으로 DNS 설정
