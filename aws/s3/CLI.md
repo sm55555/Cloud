@@ -15,16 +15,16 @@ aws s3api put-object --bucket dev-test --key text.txt --region ap-northeast-2
 
 ```
 aws s3 cp "S3 버킷 경로" "로컬 경로"
-aws s3 cp put-object --bucket dev-test --key text.txt --region ap-northeast-2
+aws s3 cp s3://dev-test/text.txt /home/ec2-user --region ap-northeast-2
 ```
 ### S3 에 폴더 업로드
 
 ```
-  aws s3 cp "로컬 경로" "S3 버킷 경로" --recursive
+aws s3 cp "로컬 경로" "S3 버킷 경로" --recursive
 ```
 
 ### S3 에서 폴더 다운로드
 
 ```
-  aws s3 cp "S3 버킷 경로" "로컬 경로" --recursive
+aws s3 cp "S3 버킷 경로" "로컬 경로" --recursive
 ```
