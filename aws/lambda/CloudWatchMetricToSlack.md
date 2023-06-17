@@ -1,4 +1,7 @@
 
+## Lambda 함수
+
+webhook 생성 및, SLACK_CHANNEL Enviroment 생성
 
 ```python
 import boto3
@@ -37,7 +40,8 @@ def lambda_handler(event, context):
         status ="🔥"
     else:
         status ="✅"
-    
+
+    # EFS ID
     if "fs-111111111111" in str(event):
         TARGET ="AWS-EFS-TEST"
     else:
