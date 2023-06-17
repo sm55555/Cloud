@@ -1,5 +1,12 @@
+### 1. SNS Topic 생성 후 인증
 
-## Lambda 함수
+### 2. EFS Monitoring에서 Metrics CloudWatch 생성
+
+### 3. Webhook URL 생성
+
+https://velog.io/@king/slack-incoming-webhook
+
+### 4. Lambda 함수 (Trigger에 SNS 확인)
 
 webhook 생성 및, SLACK_CHANNEL Enviroment 생성
 
