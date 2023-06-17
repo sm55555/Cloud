@@ -1,3 +1,6 @@
+테스트는 EFS Client Connections 수
+테스트 방법은 해당 서버에서 mount, umount 반복으로 진행
+
 ### 1. SNS Topic 생성 후 인증
 
 ### 2. EFS Monitoring에서 Metrics CloudWatch 생성
@@ -6,7 +9,9 @@
 
 https://velog.io/@king/slack-incoming-webhook
 
-### 4. Lambda 함수 (Trigger에 SNS 확인)
+### 4. Lambda 함수 생성
+
+Use a Blueprint -> Blueprint name (Send Cloudwatch alram notification via SNS) -> SNS Triiger 추가, Enviroment variables 추가
 
 webhook 생성 및, SLACK_CHANNEL Enviroment 생성
 
