@@ -3,3 +3,5 @@
 #### if  NLB Listen 포트 80 -> TargetGroup 포트 80 (healthcheck가 8000포트이면)
 
 TargetGroup 서버들에서 inbound로 NLB IP 80과 8000 두개를 열어야한다.
+
+<span style="color:red"> 글씨색 변경 </span>
