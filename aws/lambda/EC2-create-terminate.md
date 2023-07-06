@@ -154,6 +154,9 @@ class Webhook(EventAction):
             
             check = 0
             
+            # tags는 Dictionary의 배열이며 하나의 Dictionary의 Value가 Name인 다음 Dictionary의 콘텐츠에 NameTag 값이 있어서
+            # check 변수를 써서 확인하는 로직이다.
+                    
             for temp in tags:
                 if check == 1:
                     break;
@@ -168,7 +171,7 @@ class Webhook(EventAction):
 
             
         else:
-            print("!!!!!!!!!!This is TerminateInstances@@@")
+            print("TerminateInstances Event")
             
         
 
@@ -190,8 +193,6 @@ class Webhook(EventAction):
         prepared_body = self._build_body(resource)
         prepared_headers = self._build_headers(resource)
 
-        
-        #B principalId[-1
         
         if "spotinst" in str(principalId[-1]):
             return
