@@ -5,23 +5,23 @@ Custodian
 
 ```yaml
 policies:
-    - name: ec2-create-terminate
-    resource: ec2
-    mode:
-        type: cloudtrail
-        role: arn:aws:iam: :123123123:role/temp-roll
-        events:
-            - source: ec2.amazonaws.com
-                event: Runinstances
-                ids: "responseElements InstancesSet, items[], instanceld"
-            - source: ec2.amazonaws.com
-                event: TerminateInstances
-                ids: "responseElements InstancesSet, items[], instanceld"
+- name: ec2-create-terminate
+  resource: ec2
+  mode:
+    type: cloudtrail
+    role: arn:aws:iam: :123123123:role/temp-roll
+    events:
+      - source: ec2.amazonaws.com
+        event: Runinstances
+        ids: "responseElements InstancesSet, items[], instanceld"
+      - source: ec2.amazonaws.com
+        event: TerminateInstances
+        ids: "responseElements InstancesSet, items[], instanceld"
 
-    filters:
-        - or:
-            - tag:aws: autoscaling: groupName: absent
-            - tag: spot inst aws:ec2: group:created By: absent
+   filters:
+      - or:
+        - tag:aws: autoscaling: groupName: absent
+        - tag: spot inst aws:ec2: group:created By: absent
 
     actions:
         - type: webhook
