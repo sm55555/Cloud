@@ -20,8 +20,8 @@ policies:
 
    filters:
       - or:
-        - tag:aws: autoscaling: groupName: absent
-        - tag: spot inst aws:ec2: group:created By: absent
+        - tag:aws:autoscaling:groupName: absent
+        - tag:spotinst:aws:ec2:group:createdBy: absent
 
     actions:
         - type: webhook
