@@ -193,8 +193,12 @@ class Webhook(EventAction):
         prepared_body = self._build_body(resource)
         prepared_headers = self._build_headers(resource)
 
-        
+        // SPOT 예외
         if "spotinst" in str(principalId[-1]):
+            return
+
+        // ASG 예외
+        if "AutoScaling" in str(principalId[-1]):
             return
 
         if eventName == 'TerminateInstances':
