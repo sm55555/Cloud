@@ -9,14 +9,14 @@ policies:
   resource: ec2
   mode:
     type: cloudtrail
-    role: arn:aws:iam: :123123123:role/temp-roll
+    role: arn:aws:iam::123123123:role/temp-roll
     events:
       - source: ec2.amazonaws.com
         event: Runinstances
-        ids: "responseElements InstancesSet, items[], instanceld"
+        ids: "responseElements.InstancesSet.items[].instanceld"
       - source: ec2.amazonaws.com
         event: TerminateInstances
-        ids: "responseElements InstancesSet, items[], instanceld"
+        ids: "responseElements.InstancesSet.items[].instanceld"
 
    filters:
       - or:
