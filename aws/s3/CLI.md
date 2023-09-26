@@ -34,5 +34,5 @@ aws s3 cp "S3 버킷 경로" "로컬 경로" --recursive
 test 버킷 하위에 /data가 있고 그 하위에 여러 파일이 있다고 가정하고, /data 하위에 20230923이 들어간 파일들
 
 ```
-aws s3 cp s3://test/data /home/test --recursive --exclude "*" --include "*20230923*"
+aws s3 cp s3://test/data/ /home/test --recursive --exclude "*" --include "*20230923*"
 ```
