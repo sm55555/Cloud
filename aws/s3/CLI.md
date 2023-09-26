@@ -28,3 +28,11 @@ aws s3 cp "로컬 경로" "S3 버킷 경로" --recursive
 ```
 aws s3 cp "S3 버킷 경로" "로컬 경로" --recursive
 ```
+
+### S3 특정 하위 폴더에서 특정 조건에 맞는 파읾만 다운로드
+
+test 버킷 하위에 /data가 있고 그 하위에 여러 파일이 있다고 가정하고, /data 하위에 20230923이 들어간 파일들
+
+```
+aws s3 cp s3://test/data /home/test --recursive --exclude "*" --include "*20230923*"
+```
