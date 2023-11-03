@@ -1,4 +1,4 @@
-아래와 같은 방식으로 Bucket(Public)으로 접속하는 IP를 차단한다. 내부 시스템이라도 NAT 타고 나오면 해당 IP를 넣어주면 막힌다.
+### 아래와 같은 방식으로 Bucket(Public)으로 접속하는 IP를 차단한다. 내부 시스템이라도 NAT 타고 나오면 해당 IP를 넣어주면 막힌다.
 
 ```yml
 {
@@ -25,4 +25,16 @@
     }
   ]
 }
+```
+
+### 특정 버킷에 하위 폴더에만 권한 줄때 my-company버킷 home/David/ 하위 폴더에
+
+```
+    {
+      "Sid": "AllowListingOfUserFolder",
+      "Action": ["s3:ListBucket"],
+      "Effect": "Allow",
+      "Resource": ["arn:aws:s3:::my-company"],
+      "Condition":{"StringLike":{"s3:prefix":["home/David/*"]}}
+    }
 ```
