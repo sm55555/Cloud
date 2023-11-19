@@ -36,3 +36,13 @@ test 버킷 하위에 /data가 있고 그 하위에 여러 파일이 있다고 �
 ```
 aws s3 cp s3://test/data/ /home/test --recursive --exclude "*" --include "*20230923*"
 ```
+
+## S3 동기화
+
+```
+test 버킷에서 -> 로컬 서버 /home/ec2-user/img 위치로 파일 변경
+
+aws s3 sync /<ORIGIN_PATH> /<TARGET_PATH>
+
+aws s3 sync s3://test /home/ec2-user/img
+```
