@@ -29,12 +29,25 @@
 
 ### 특정 버킷에 하위 폴더에만 권한 줄때 my-company버킷 home/David/ 하위 폴더에
 
-```
+이렇게 하면 조회 DOC-EXAMPLE-BUCKET 다 되지만, sync 명령어등 GetObjec는DOC-EXAMPLE-BUCKET/temp/하위만 먹힘
+
+```yml
+{
+  "Id": "SourceIP",
+  "Version": "2012-10-17",
+  "Statement": [
     {
-      "Sid": "AllowListingOfUserFolder",
-      "Action": ["s3:ListBucket"],
+      "Sid": "VisualEditor0",
       "Effect": "Allow",
-      "Resource": ["arn:aws:s3:::my-company"],
-      "Condition":{"StringLike":{"s3:prefix":["home/David/*"]}}
+      "Action": [
+          "s3:GetObject",
+          "s3:ListBucket"
+      ]
+      "Resource": [
+        "arn:aws:s3:::DOC-EXAMPLE-BUCKET",
+        "arn:aws:s3:::DOC-EXAMPLE-BUCKET/temp/*"
+      ]
     }
+  ]
+}
 ```
