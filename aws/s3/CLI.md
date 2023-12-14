@@ -56,3 +56,13 @@ aws s3 sync s3://test /home/ec2-user/img
 $ aws s3 rm --recursive --exclude "*.sh" s3://test/rm_test/
 ```
 
+## S3 명령어 임시 테스트
+
+```
+# 결과 출력 시, dryrun임을 표시하여 실제로 수행되지 않았음을 알려준다.
+$ aws s3 rm s3://test-bucket-inpa/folder1/ --dryrun
+(dryrun) delete: s3://test-bucket-inpa/folder1/
+```
+
+
+
