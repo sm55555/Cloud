@@ -48,3 +48,11 @@ aws s3 sync /<ORIGIN_PATH> /<TARGET_PATH>
 
 aws s3 sync s3://test /home/ec2-user/img
 ```
+
+## S3 Object 삭제
+
+```
+# 디렉터리 내 파일을 삭제하되 .sh로 끝나는 파일은 남겨두기 위해, --exclude 옵션으로 *.sh 패턴을 지정. 
+$ aws s3 rm --recursive --exclude "*.sh" s3://test/rm_test/
+```
+
