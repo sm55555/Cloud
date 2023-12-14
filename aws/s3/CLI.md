@@ -39,6 +39,8 @@ aws s3 cp s3://test/data/ /home/test --recursive --exclude "*" --include "*20230
 
 ## S3 동기화
 
+aws sync 명령어는 기본적으로 하위까지 하기 때문에 --recursive 가 필요 없다.
+
 ```
 test 버킷에서 -> 로컬 서버 /home/ec2-user/img 위치로 파일 변경
 
