@@ -2,6 +2,8 @@
 SET temp=sg-1111(공통SG)
 SET sg=%var%    %temp%
 
+---여기까지는 변수 값 초기 설정
+
 for /f "tokens=*" %a in ('aws ec2 describe-instances --instance-ids i-1234 --query "Reservations[].Instances[].SecurityGroups[].GroupId[]" --output text --region=ap-northeast-2') do set var=%a
 
 echo %sg%
