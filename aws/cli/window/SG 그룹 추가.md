@@ -13,6 +13,7 @@ aws ec2 modify-instance-attribute --instance-id i-1234 --groups %sg% --region=ap
 
 아니면 아래와 같이 변수를 나누어서 넣어도 된다.
 
+cmd
 ```
 aws ec2 modify-instance-attribute --instance-id i-1234 --groups %var% %temp% --region=ap-northeast-2
 ```
