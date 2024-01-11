@@ -10,3 +10,9 @@ echo %sg%
 
 aws ec2 modify-instance-attribute --instance-id i-1234 --groups %sg% --region=ap-northeast-2
 ```
+
+아니면 아래와 같이 변수를 나누어서 넣어도 된다.
+
+```
+aws ec2 modify-instance-attribute --instance-id i-1234 --groups %var% %temp% --region=ap-northeast-2
+```
