@@ -21,6 +21,7 @@ aws s3 cp s3://dev-test/text.txt /home/ec2-user --region ap-northeast-2
 
 ```
 aws s3 sync /home/user/sm55555/datafolder s3://test-bucket/img/ --region ap-northeast-2
+aws s3 cp /home/user/sm55555/datafolder s3://test-bucket/img/ --recursive --region ap-northeast-2
 ```
 
 ### S3 에서 폴더 다운로드
