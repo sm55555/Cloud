@@ -72,5 +72,11 @@ $ aws s3 rm s3://test-bucket-inpa/folder1/ --dryrun
 aws s3api list-objects --bucket TestBucket --query "Contents[?LastModified>= '2024-02-01'].Key" --output json | jq -r '.[]'
 ```
 
+그 데이터들을 Download
+
+```
+aws s3api list-objects --bucket TestBucket --query "Contents[?LastModified>= '2024-02-01'].Key" --output json | jq -r '.[]' | xargs -I {} aws s3 cp s3://TestBucket/{} /home/ec2-user/
+```
+
 
 
