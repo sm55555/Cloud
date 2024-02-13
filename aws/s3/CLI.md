@@ -64,5 +64,13 @@ $ aws s3 rm s3://test-bucket-inpa/folder1/ --dryrun
 (dryrun) delete: s3://test-bucket-inpa/folder1/
 ```
 
+## S3 특정 기간 이후 업로드 된 파일 조회
+
+2024년 2월 1일 이후 데이터
+
+```
+aws s3api list-objects --bucket TestBucket --query "Contents[?LastModified>= '2024-02-01'].Key" --output json | jq -r '.[]'
+```
+
 
 
