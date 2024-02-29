@@ -12,6 +12,9 @@ https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/general-purpose-instan
 
 만약 이 할당량을 넘으면 CloudWatch 어떠한 수치가 발견되는데,
 
+<img width="583" alt="image" src="https://github.com/sm55555/Cloud/assets/38831314/a5b2d31f-c9f8-41d5-a12c-0be2c2eeafd6">
+
+
 ```
 NetworkBandwidthInAllowanceExceeded/NetworkBandwidthOutAllowanceExceeded : 처리량이 집계된 대역폭 제한을 초과하여 형성된 네트워크 패킷입니다.
 
@@ -22,4 +25,4 @@ NetworkPackets PerSecondAllowanceExceeded : 초당 최대 패킷 수를 초과�
 
 특히 NetworkBandwidthOutAllowanceExceeded 이 부분이 Metric이 확인된다면 Network Limit 자체가 발생되는 것이다.
 
-따라서 해결책은 EC2에서 부하량을 줄이거나, Redis의 스펙을 올려야한다.
+따라서 해결책은 EC2에서 부하량을 줄이거나, Redis의 스펙을 올려야한다. Network의 대역폭을 늘리려면 NodeType 변경 밖에 없다. 
