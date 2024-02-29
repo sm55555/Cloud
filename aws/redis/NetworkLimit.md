@@ -23,6 +23,6 @@ NetworkConntrackAllowanceExceeded : 노드에 할당된 모든 보안 그룹에�
 NetworkPackets PerSecondAllowanceExceeded : 초당 최대 패킷 수를 초과했습니다. 매우 크기가 작은 요청의 비율이 높은 워크로드는 최대 대역폭 전에 이 제한에 도달할 수 있습니다.
 ```
 
-특히 NetworkBandwidthOutAllowanceExceeded 이 부분이 Metric이 확인된다면 Network Limit 자체가 발생되는 것이다.
+특히 NetworkBandwidthOutAllowanceExceeded 이 부분이 Metric이 확인된다면 이미 Network Limit을 넘는 요청이 발생되는 현상이다.
 
 따라서 해결책은 EC2에서 부하량을 줄이거나, Redis의 스펙을 올려야한다. Network의 대역폭을 늘리려면 NodeType 변경 밖에 없다. 
