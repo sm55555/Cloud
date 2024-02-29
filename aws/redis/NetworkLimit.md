@@ -1,6 +1,6 @@
 ### NetworkLimit
 
-Case
+#### Architecture
 
 <img width="272" alt="image" src="https://github.com/sm55555/Cloud/assets/38831314/8f6f6d5a-59c4-49f7-aa51-71642373151a">
 
