@@ -27,7 +27,7 @@ def parse_lb_name_from_arn(arn):
 result = ""
 terminate_emoji = '☠️'
 ok_emoji = '✅'
-channel = "#aws-terminate-resource"
+channel = "#TerminateTagSearch"
 
 # EC2
 ec2 = boto3.client('ec2', 'ap-northeast-2')
@@ -196,6 +196,6 @@ def lambda_handler(channel, text):
     attachments = [attachments_dict]
 
     token = "xoxb-111111111111111111111111111111111111111111"
-    channel = "#aws-terminate-resource"
+    channel = "#TerminateTagSearch"
     requests.post("https://slack.com/api/chat.postMessage",headers={"Authorization": "Bearer "+ token},data={"channel":channel,"attachments":json.dumps(attachments)})
 ```
