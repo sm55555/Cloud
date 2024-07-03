@@ -44,3 +44,10 @@ systemctl enable amazon-cloudwatch-agent.service
 systemctl restart amazon-cloudwatch-agent.service
 systemctl status amazon-cloudwatch-agent.service
 ```
+
+
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json -s
+
+를 진행하면 /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.d/ 하위에 config.json이 생겨서 이 ami를 이용하면  "log_stream_name": "{instance_id}" 값은 동적으로 할당 된다.
+
+
