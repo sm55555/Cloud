@@ -1,6 +1,9 @@
-### EC2 Cloudwatch Agent
+## EC2 Cloudwatch Agent
 
+## [Architecture]
 ![image](https://github.com/sm55555/Cloud/assets/38831314/cb4518ef-c946-4552-b7b9-5f924fe14861)
+
+
 
 ```
 sudo yum install amazon-cloudwatch-agent -y
