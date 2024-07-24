@@ -2,7 +2,7 @@
 
 test bucket 사용할때만, ip와 role 로 제한한다. 나머지는 정상 통신
 
-```
+```json
 {
 	"Version": "2008-10-17",
 	"Statement": [
