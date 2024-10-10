@@ -1,4 +1,4 @@
-### [secretsmanager]
+3### [secretsmanager]
 ```
 aws secretsmanager get-secret-value --secret-id test
 ```
