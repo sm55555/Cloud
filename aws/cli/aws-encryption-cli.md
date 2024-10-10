@@ -18,7 +18,10 @@ x҅��iT�{����@i��v���
 나오면 성공 ! kms arn 으로 해독 가능
 
 
-### [aws-encryption-cli --encrypt]
+
+
+
+### [aws-encryption-cli --encrypt] 암호화 방법 generatekey 권한 필요
 ```
 aws-encryption-cli --encrypt \
                      --input hello.txt \
