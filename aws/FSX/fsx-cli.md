@@ -5,7 +5,7 @@
 ssh fsxadmin@[Management endpoint - IP Address]
 ```
 
-- 조회 및 변경 cli
+- 조회 cli
 
 ```
 volume show -vserver [File system name]
@@ -18,6 +18,8 @@ volume show -vserver [File system name] -volume [Volume name]
 ```
 volume show -vserver [File system name] -volume [Volume name] -fields size
 ```
+
+- 변경 cli
 
 ```
 volume modify -vserver [File system name] -volume [Volume name] -files 100000
