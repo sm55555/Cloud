@@ -18,3 +18,7 @@ volume show -vserver [File system name] -volume [Volume name]
 ```
 volume show -vserver [File system name] -volume [Volume name] -fields size
 ```
+
+```
+volume modify -vserver [File system name] -volume [Volume name] -files 100000
+```
