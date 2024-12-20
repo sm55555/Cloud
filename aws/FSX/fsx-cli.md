@@ -15,6 +15,8 @@ volume show -vserver [File system name]
 volume show -vserver [File system name] -volume [Volume name]
 ```
 
+- 특정 부분만 조회
+
 ```
 volume show -vserver [File system name] -volume [Volume name] -fields size
 ```
