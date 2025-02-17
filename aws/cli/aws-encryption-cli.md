@@ -14,8 +14,8 @@ x҅��iT�{����@i��v���
                    ��矓naws-crypto-public-keyDA!~~!@~!@~~!@~!~!@~!@~~~~~~~~~~~~ow==purposetestaws-kmsParn:aws:kms:ap-northeast-2:123412341234:key123871232189831892asd�xn��F��M��w�K6
 0o0m0h�F`�He.0���b���瀛<~0| *�H�
 ```
-
-나오면 성공 ! kms arn 으로 해독 가능
+ 
+aws:kms:ap-northeast-2:123412341234:key가 나오면 성공 ! kms arn 으로 해독 가능
 
 ### [aws-encryption-cli --decrypt] 복호화 방법 decrypt 권한 필요
 
