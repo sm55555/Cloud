@@ -1,3 +1,24 @@
+### [iam]
+사전에 EC2에 해당 권한 및 endpoint 필요함.
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "secretsmanager:GetSecretValue",
+            "Resource": "arn:aws:secretsmanager:ap-northeast-2:123412341234:secret:*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "kms:Decrypt",
+            "Resource": "arn:aws:kms:ap-northeast-2:123412341234:key/*"
+        }
+    ]
+}
+```
+
+
 ### [secretsmanager]
 ```
 aws secretsmanager get-secret-value --secret-id test
